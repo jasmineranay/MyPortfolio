@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Sharp Grotesk';
+  src: local('Sharp Grotesk'), local('SharpGroteskLight'),
+			url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskLight20.woff2') format('woff2'),
+			url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskLight20.woff') format('woff'),
+      url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskLight.otf') format('opentype'),
+      url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskLight.ttf') format('truetype');
+  font-weight: 300 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sharp Grotesk';
+  src: local('Sharp Grotesk'), local('SharpGroteskMedium'),
+			url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskMedium20.woff2') format('woff2'),
+			url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskMedium20.woff') format('woff'),
+      url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskMedium.otf') format('opentype'),
+      url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sharp Grotesk';
+  src: local('Sharp Grotesk'), local('SharpGroteskSemiBold'),
+			url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskSmBold20.woff2') format('woff2'),
+			url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskSmBold20.woff') format('woff'),
+      url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskSemiBold.otf') format('opentype'),
+      url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskSemiBold.ttf') format('truetype');
+  font-weight: 600 bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sharp Grotesk Book';
+  src: local('Sharp Grotesk'), local('SharpGroteskBook'),
+			url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskBook20.woff2') format('woff2'),
+			url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskBook20.woff') format('woff'),
+      url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskBook.otf') format('opentype'),
+      url('https://assets.quadpay.com/assets/fonts/sharpGrotesk/SharpGroteskBook.ttf') format('truetype');
+  font-weight: 300 500;
+  font-style: normal;
+}
