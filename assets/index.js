@@ -1,0 +1,1 @@
+var clickPortfolio = document. getElementById(".portfolio-button").onclick = () => { }
