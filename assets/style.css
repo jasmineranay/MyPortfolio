@@ -1,12 +1,53 @@
-/* hero background image */
+
+
+@keyframes bgcolor {
+  0% {
+      background-color: #45a3e5
+  }
+
+  30% {
+      background-color: #66bf39
+  }
+
+  60% {
+      background-color: #eb670f
+  }
+
+  90% {
+      background-color: #f35
+  }
+
+  100% {
+      background-color: #864cbf
+  }
+}
+
+body {
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
 .bgimage {
   height:100vh;
   background: url('images/heroImage.jpeg');
   background-size:cover;
   position:relative;
 }
+
+/* spacing on all sections */
+.about, #services, #portfolio, #contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+#contact {
+  padding-bottom: 4rem;
+}
+
 /* text css above hero image*/
 .hero_title {
+  margin-top: 50%;
   font-size: 4.5rem;
 }
 .hero_desc {
